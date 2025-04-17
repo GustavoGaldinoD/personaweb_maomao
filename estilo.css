@@ -1,10 +1,16 @@
 body{
     background-color: darkseagreen;
     color: rgb(34, 50, 119);
+    margin: 0;
+    padding: 0;
+    font-family: "Tangerine", cursive;  
+    font-size: 30px;
 }
 
-h1{
-    color: rgb(66, 102, 33);
+h1, .personagem{
+    color: rgba(70, 75, 65, 0.836);
+    font-family: "Passions Conflict", cursive;
+    font-size: 50px;
 }
 
 div{
@@ -12,9 +18,31 @@ div{
     padding: 10px 20px;
     margin: 50px;
     border-radius: 50px;
+    box-shadow: 10px 5px 5px rgba(21, 136, 31, 0.274);
+    border-left: darkgreen solid 5px;
 }
 
-img{
-    border-radius: 5px;
-    margin-top: 10px;
+.img{
+    display: flex;
+    justify-content: center;
+    border: rgb(120, 151, 120) double 10px;
 }
+    .img img{
+        background-color: rgba(238, 228, 228, 0.897);
+        padding: 10px 20px;
+        margin: 50px;
+        border-radius: 50px;
+        box-shadow: 10px 5px 5px rgba(21, 136, 31, 0.555);
+        
+    }
+    .introducao{
+        margin-top: 10%;
+    }
+    .rodape{
+        background-color: rgba(131, 224, 113, 0.726);
+        text-align: center;
+        padding: 10px;
+    }
+    .rodape p{
+        margin: 0;
+    }
